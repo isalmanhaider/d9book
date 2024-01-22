@@ -23,6 +23,8 @@ For my own convenience, I prefer to just use `drush cr` while in the directory f
 ```
 putenv("IS_DDEV_PROJECT=true");
 ```
+### Using Drush and Composer inside DDEV container
+In addition, you can also use `ddev ssh` to access the container directly. Once inside the container, you can run Drush and Composer commands directly, such as `drush cr`, `composer update`, and others.
 
 ### Enable Twig debugging
 When you want to do some debugging, this can be a really useful setting to enable.
